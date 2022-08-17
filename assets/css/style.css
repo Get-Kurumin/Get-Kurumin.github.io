@@ -1,0 +1,218 @@
+* {Box-sizing: border-box;}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    height: auto;
+    width: 100%;
+    
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.main {
+    background-color: rgb(0, 6, 22);
+    background-image: url('../imgs/backgroundimg.png');
+    background-repeat:no-repeat;
+    background-position: right;
+}
+
+.PlayerArea .Leftside .h1, h1 {
+    color: aliceblue;
+    padding-top: 50px;
+    font-size: 3.0em;
+    font-style: unset;
+
+}
+
+.PlayerArea .Leftside .sub, p {
+    color: aliceblue;
+    padding-top: 10px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    padding-top: 30px;
+}
+
+.PlayerArea {
+    display: flex;
+}
+
+.PlayerArea .rightside {
+    flex: 1;
+    background-size: 100% auto;
+}
+
+.PlayerArea .Leftside .sub {
+   padding-bottom: 10px;
+}
+
+.Warn p {
+    color: #626262;
+    text-align: center;
+    padding-top: 10rem;
+ }
+
+
+ .LinkGit a {
+    color: #b4b4b4;
+ }
+
+ .LinkGit a:hover {
+    color: #626262;
+    text-decoration: none;
+ }
+
+.PlayerArea .Leftside {
+    flex: 1;
+    padding-bottom: 30px;
+    
+}
+
+nav {
+    background-color: rgb(0, 5, 17);
+    height: 40px;
+}
+
+nav a {
+    color: rgba(158, 158, 165, 0.781);
+    font-size: 1.2rem;
+    flex: 1;
+    margin-right: 20px;
+    margin-right: 20px;
+    
+}
+
+nav a:hover {
+    color: white;
+    text-decoration:none;
+}
+
+nav ul {
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+/* ---------------------------------------Inicio cards Section------------------------------- */ 
+
+.row {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.rew .col-md-3 {
+    text-align: center;
+    
+}
+
+.col-md-3 .card {
+    margin-bottom: 20px;
+    margin-right: 0px !important;
+}
+
+
+.card-body p {
+    color: black;
+    margin-bottom: 10px;
+    padding-top: 0px;
+}
+
+.card-body {
+    padding-top: 10px;
+}
+
+.card-body h1 {
+    color: rgb(70, 70, 70);
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.TextSection h1 {
+    color: rgb(110, 110, 110);
+    font-size: 25px;
+    padding-left: 55px;
+    padding-top: 10px;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+section {
+    height: 100%; 
+}
+
+section .hometext p {
+    color: black;
+    height: 150px;
+}
+
+section .homeleft {
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.home {
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+/* --------------------------------Inicio Footer------------------------------------- */ 
+
+footer {
+    background-color:rgb(0, 6, 22);
+    position: relative;
+    bottom: 0px;
+    margin-top: 10px;
+    width: 100%;
+    
+    
+    
+}
+
+footer ul {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 45px;
+   
+    
+
+}
+
+footer ul li, a {
+    color: rgb(180, 180, 180);
+}
+
+footer ul li, a:hover {
+    color: rgb(255, 255, 255);
+}
